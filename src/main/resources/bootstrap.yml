@@ -1,0 +1,9 @@
+spring:
+#  profiles:
+#    active: dev
+
+  cloud:
+    config:
+      uri: http://127.0.0.1:8888  # http://localhost:8888
+#      name: ecommerce # 파일명
+      name: user-service # 파일명 (spring.application.name 을 쓸 경우 application.yml 읽음)
